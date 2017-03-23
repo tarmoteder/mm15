@@ -1,0 +1,10 @@
+ AuthType Basic
+ AuthName "ära roni"
+ AuthUserFile C:\xampp\htdocs\MM15\.htpasswd
+ Require valid-user
+
+
+
+<files "*.txt">
+deny from all
+</files>
